@@ -1,0 +1,66 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	color: white;
+	background-color: #24053e;
+	padding: 50px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 32px 32px 0 32px;
+	align-items: end;
+	width: 100%;
+}
+
+.data {
+	font-size: 70px;
+	margin-top: 50px;
+}
+
+.btn {
+	border: #44ffa1 solid 1px;
+	padding: 15px;
+	background-color: #44ffa1;
+}
+
+.apply {
+	border-bottom: #44ffa1 solid 2px;
+}
+
+.apply:hover {
+	color: #44ffa1;
+}
+
+.iphone {
+	width: 40%;
+	transform: translateY(45%);
+}
+
+.full-box {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 50px;
+	margin-top: 150px;
+}
+
+.box-2 {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.frame {
+	display: flex;
+	width: 14%;
+}
